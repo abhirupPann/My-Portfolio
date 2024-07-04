@@ -35,7 +35,7 @@ export function SendEmailDemo() {
       
   };
   return (
-    <div className="max-w-md w-full mt-5 mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
+    <div className="max-w-md w-full mt-5 mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input border border-gray-700 bg-white dark:bg-black">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
         Want to make Pixel-perfect, responsive UI designs for your website ?
       </h2>
