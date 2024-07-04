@@ -8,16 +8,16 @@ import img2 from "../../assets/img2.png"
 import { Link } from "react-router-dom";
 export function WobbleCardDemo() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl px-[10vw] sm:px-auto w-full">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl px-[10vw] sm:px-[7vw] w-full">
       <WobbleCard
         containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
         className="relative"
       >
         <div className="max-w-xs">
-          <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+          <h2 className="text-left text-balance mt-[25vh] sm:mt-[28vh] md:mt-0 text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-black">
           Real Time Currency Converter
           </h2>
-          <p className="mt-4 text-left  text-base/6 text-neutral-200">
+          <p className="mt-4 text-left  text-base/6 text-black">
             Made using react library.
             It converts more than 250+ currency variants, real time value of the currency in the market.
           </p>
