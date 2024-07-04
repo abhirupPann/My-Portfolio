@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "LotaGrotesqueAlt1-Regular";
+    src: url(./assets/fonts/Lota\ Grotesque\ Alt\ 1\ Regular.otf);
+  }
