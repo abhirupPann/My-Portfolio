@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import  {  useRef, useState } from "react";
 import { MultiStepLoader as Loader } from "../ui/multi-step-loader";
 import { IconSquareRoundedX } from "@tabler/icons-react";
 import HoverGradientDemo from "./HoverGradientDemo";

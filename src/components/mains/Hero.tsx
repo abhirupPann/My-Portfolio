@@ -1,8 +1,8 @@
 
 
-import React from 'react'
+
 import { HeroHighlightDemo } from '../demos/HeroHighlightDemo'
-import HoverGradientDemo from '../demos/HoverGradientDemo'
+
 import { MultiStepLoaderDemo } from '../demos/MultiStepLoaderDemo'
 
 function Hero() {

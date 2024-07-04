@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { HeroHighlight } from '../ui/hero-highlight'
 import { WobbleCardDemo } from '../demos/WobbleCardDemo'
 function Experience() {

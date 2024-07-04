@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+
 import { WobbleCard } from "../ui/wobble-card";
 import { IconBrandGithub } from '@tabler/icons-react';
 import img1 from "../../assets/img1.png"
