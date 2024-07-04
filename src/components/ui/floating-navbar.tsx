@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { IconBrightnessDown, IconMoon } from '@tabler/icons-react';
 import { HashLink as Link } from "react-router-hash-link";
 import { useRecoilState } from "recoil";

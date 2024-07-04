@@ -83,7 +83,8 @@ export const InfiniteMovingCards = ({
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
-      >
+      > 
+      {/* @ts-ignore */}
         {items.map((item, idx) => (
           <li
             className="max-w-full relative rounded-2xl flex-shrink-0  px-8  "

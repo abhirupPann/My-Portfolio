@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 
 import { FloatingNavDemo } from './components/demos/FloatingNavDemo'
 import { useRecoilValue } from 'recoil';
@@ -9,7 +9,7 @@ import Services from './components/mains/Services';
 import Experience from './components/mains/Experience';
 import Contacts from './components/mains/Contacts';
 import Footer from './components/mains/Footer';
-import { ToastBar, Toaster } from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
 
 
 function App() {

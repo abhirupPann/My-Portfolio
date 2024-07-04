@@ -1,7 +1,7 @@
 "use client";
-import React, { useState } from "react";
+
 import { FloatingNav } from "../ui/floating-navbar";
-import { IconMessage, IconUser, IconDeviceImac, IconPresentation, IconBrandGithub} from "@tabler/icons-react";
+import { IconMessage, IconUser, IconDeviceImac, IconPresentation} from "@tabler/icons-react";
 
 
 

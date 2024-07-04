@@ -122,7 +122,7 @@ const Card = ({
     </div>
   );
 };
-
+// @ts-ignore 
 const AceternityIcon = () => {
   return (
     <svg

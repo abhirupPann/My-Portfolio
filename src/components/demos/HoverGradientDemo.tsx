@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { HoverBorderGradient } from "../ui/hover-border-gradient";
 import { IconChevronsRight } from '@tabler/icons-react';
 function HoverGradientDemo() {

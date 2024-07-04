@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 
 import { motion } from "framer-motion";
 import { cn } from "../../utils/cn";
@@ -56,7 +56,9 @@ export function HoverBorderGradient({
     }
   }, [hovered]);
   return (
+    
     <Tag
+    // @ts-ignore 
       onMouseEnter={(event: React.MouseEvent<HTMLDivElement>) => {
         setHovered(true);
       }}
