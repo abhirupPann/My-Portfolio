@@ -19,13 +19,13 @@ function App() {
     const locatStorageVal = localStorage.getItem("theme")
     if(locatStorageVal==="dark"){
       document.documentElement.classList.add("dark");
-      console.log("dark")
+     
     }
     else{
       document.documentElement.classList.remove("dark");
-      console.log("light")
+     
     }
-    console.log(theme)
+  
   },[theme]);
   return (
     <div className=' w-full bg-black font-spaceGrotesk'>

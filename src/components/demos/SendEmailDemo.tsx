@@ -25,11 +25,11 @@ export function SendEmailDemo() {
       .then(
         () => {
           toast.success("Email Sent Successfully!")
-          console.log('SUCCESS!');
+          
         },
         (error) => {
           toast.error("Failed to Send Email!")
-          console.log('FAILED...', error.text);
+          
         },
       );
       
