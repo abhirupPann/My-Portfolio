@@ -29,7 +29,7 @@ export function SendEmailDemo() {
         },
         (error) => {
           toast.error("Failed to Send Email!")
-          
+          console.log('FAILED...', error.text);
         },
       );
       
