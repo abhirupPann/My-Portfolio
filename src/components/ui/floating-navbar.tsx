@@ -49,10 +49,19 @@ export const FloatingNav = ({
   });
   const handleOnClick=()=>{
     if(theme === "light"){
+      if(localStorage.getItem("theme")) localStorage.removeItem('theme')
+        
+        localStorage.setItem("theme","dark");
         setTheme("dark")
+       
+       
     }
     else{
+        if(localStorage.getItem("theme")) localStorage.removeItem('theme')
+    
+        localStorage.setItem("theme", "light");
         setTheme("light")
+        
     }
     
   }
